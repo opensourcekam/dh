@@ -50,8 +50,10 @@ Kabocha + Spice
 * Tests
 
 ## Project structure
-* /api: fetching functions
-* /app: main <App> component
-* /components: components that are reused in multiple places
-* /features: groups components that all share code for one larger feature
-* /utils: any misc functions that may be needed across app
+```
+ /api: fetching functions
+ /app: main <App> component
+ /components: components that are reused in multiple places
+ /features: groups components that all share code for one larger feature
+ /utils: any misc functions that may be needed across app
+```
