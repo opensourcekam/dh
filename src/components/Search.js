@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-const Search = styled.input`
+const Search = styled.input.attrs({
+	'aria-label': 'search-input'
+})`
 	outline: none;
 
 	display: block;
