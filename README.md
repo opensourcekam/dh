@@ -50,8 +50,13 @@ Kabocha + Spice
 * Tests
 
 ## Project structure
-/api: fetching functions and TS types for the Github Issues API
-/app: main <App> component
-/components: components that are reused in multiple places
-/features: groups components that all share code for one larger feature
-/utils: any misc functions that may be needed across app
+```
+ /api: data fetching fixtures and api setup layer
+ /app: main App
+ /redux: contains all redux setup and modules
+   /modules: Follows ducks pattern
+   /tests: tests functions which manipulate state
+ /components: components that are reused in multiple places
+ /features: groups components that all share code for one larger feature
+ /utils: any misc functions that may be needed across app
+```
