@@ -10,3 +10,5 @@ test('returns correct list of items', () => {
 test('returns empty object', () => {
 	expect(pickMatchingIngredentsByTerms(testIngredientsData, [ 'Hemp protean' ])).toStrictEqual({});
 });
+
+// TODO: add redux specific tests
