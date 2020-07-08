@@ -1,3 +1,5 @@
+// TODO: setup mock store for testing reducers and actions
+
 export const testIngredientsData = {
 	'Hemp Protein': {
 		id: 1,
