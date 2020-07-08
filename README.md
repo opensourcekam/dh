@@ -60,3 +60,23 @@ Kabocha + Spice
  /features: groups components that all share code for one larger feature
  /utils: any misc functions that may be needed across app
 ```
+
+## On this solution
+I've built this solution with CREATE-REACT-APP, Redux/toolkit, lodash, normalizr, axios, and styled-components as my sensible defaults. I utilized the given testing libraries for writing my component and unit tests. 
+
+Once the app is running searching will return a list of strings, the input can be any string or as a comma seperated list of strings. The given strings from our ingredients list will return products which ingredientsIds list match id's with. The place I struggled most through this assignment was writing the ingredients to products matching logic (utilizing lodash) and I believe that is where I can probably make the most optimizations if given a collaborator to reflect with. I felt like throught the challenge I made good decisions with architecture, scalibile defaults (i.e. default unit and component testing).
+
+## Running my solution
+
+```
+After download this repo
+Run `yarn` to install packages
+Run `yarn start` to start app
+
+Once the app is booted it should be avaliable at `localhost:3000`
+
+Testing:
+Run `yarn test` to see tests
+```
+
+
