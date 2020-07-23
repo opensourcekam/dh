@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { ProductCard } from './ProductCard';
 import { productType } from './types';
 
-const ProductList = ({ products }) => <dib>{Object.values(products).map(ProductCard)}</dib>;
+const ProductList = ({ products }) => <div>{Object.values(products).map(ProductCard)}</div>;
 
 ProductList.propTypes = {
 	products: PropTypes.arrayOf(PropTypes.shape(productType)).isRequired
